@@ -5,12 +5,19 @@ body{
                          'main'
                          'section'
                          'footer';
-    grid-template-columns: 100vw;                     
+    grid-template-columns: 100vw;
+    margin: 0;                     
 
+}
+header{
+    background-image: url(../images/lanche.png);
+    background-size: cover;
+    grid-area: banner;
+    height: 200px;
 }
 nav{
     align-items: center;
-    background-color: rgb(75, 75, 194) ;
+    background-color: #77d8dd;
     display: flex;
     grid-area: nav;
     height: 45px;
