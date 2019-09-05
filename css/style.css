@@ -15,9 +15,14 @@ header{
     grid-area: banner;
     height: 200px;
 }
+main{
+    background-color: blueviolet;
+    grid-area: main;
+
+}
 nav{
     align-items: center;
-    background-color: #77d8dd;
+    background-color: #38b9c0;
     display: flex;
     grid-area: nav;
     height: 45px;
@@ -31,7 +36,7 @@ nav div{
     justify-content: space-between;
 }
 nav div span{
-    background-color: black;
+    background-color:rgb(202, 8, 8);
     height: 3px;
     width: 30px;
 }
