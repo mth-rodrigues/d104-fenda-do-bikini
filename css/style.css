@@ -8,3 +8,26 @@ body{
     grid-template-columns: 100vw;                     
 
 }
+nav{
+    align-items: center;
+    background-color: rgb(75, 75, 194) ;
+    display: flex;
+    grid-area: nav;
+    height: 45px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+nav div span{
+    background-color: black;
+    height: 3px;
+    width: 30px;
+}
+nav img{
+    width: 35px;
+}
